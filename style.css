@@ -1,0 +1,252 @@
+body {
+  background-color: #EBEBEB;
+  font-family: open sans;
+  margin: 0;
+}
+
+/*Encabezado*/
+
+.encabezado {
+  background-color: #616161;
+  width: 100%;
+  height: 113px;
+  position: sticky;
+  top: 0;
+}
+
+.encabezado img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  float: left;
+  margin: 20px 50px;
+}
+
+.encabezado h1 {
+  color: #F6F6E9;
+  font-family: Bad Script, open sans;
+  font-size: 50px;
+  float: left;
+  margin: 0px -30px;
+  padding-top: 15px;
+}
+
+.encabezado h2 {
+  color: #F6F6E9;
+  font-size: 15px;
+  padding-top: 65px;
+  float: right;
+  margin-right: 55px;
+}
+
+/*barra navegación*/
+
+.nav {
+  background-color: #00C9B1;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 113px;
+  z-index: 5;
+}
+
+.menu {
+  float: left;
+}
+
+.menu p {
+  display: inline-block;
+  color: #F6F6E9;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 12px 50px;
+}
+
+.menu p a {
+  text-decoration: none;
+  color: #F6F6E9;
+}
+
+.menu p a:hover {
+  color: #E76975;
+}
+
+.nav .icons {
+  float: right;
+  display: inline-block;
+  margin: 10px 50px;
+}
+
+.nav .icons img {
+  padding-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+/*presentación*/
+
+.intro {
+  height: 100px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.intro p {
+  color: #494949;
+  font-size: 14px;
+  margin: auto 40px;
+  padding: 10px 0;
+}
+
+/*formación*/
+
+.cursos {
+  height: 100px;
+  text-align: center;
+  border-radius: 25px;
+  margin-left: auto;
+  background-color: #DFDFDF;
+  margin-bottom: 10px;
+}
+
+.cursos .column {
+  width: 25%;
+  float: left;
+}
+
+.cursos h3 {
+  float: left;
+  width: 15%;
+  font-size: 14px;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  color: #616161;
+  line-height: 76px;
+}
+
+.column h2 {
+  font-size: 13px;
+  color: #303030;
+  letter-spacing: 1px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.cursos #uno {
+  margin-left: 40px;
+}
+
+.cursos h2 span {
+  font-size: 11px;
+  color: #E76975;
+  letter-spacing: 1px;
+}
+
+/* Portfolio*/
+
+.portfolio {
+  height: 120px;
+  text-align: center;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  background-color: #DFDFDF;
+}
+
+.portfolio .column1, .portfolio .column2 {
+  width: 30%;
+  float: left;
+}
+
+.portfolio .column1 {
+  margin-left: 80px;
+}
+
+.portfolio .column2 {
+  margin-left: 60px;
+}
+
+.portfolio h4 {
+  float: left;
+  width: 15%;
+  font-size: 14px;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  color: #616161;
+  line-height: 80px;
+}
+
+.portfolio img {
+  float: left;
+  width: 120px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.portfolio h5, .portfolio p {
+  float: left;
+  font-size: 13px;
+  color: #303030;
+  width: 160px;
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+/*sobre mí*/
+
+.me {
+  height: 100px;
+  padding: 10px 0;
+  clear: left;
+  border-radius: 25px;
+  margin-left: auto;
+  background-color: #DFDFDF;
+}
+
+.me h6 {
+  float: left;
+  width: 15%;
+  font-size: 14px;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  color: #616161;
+  line-height: 50px;
+  text-align: center;
+}
+
+.me ul {
+  float: left;
+  list-style-image: url("img/star.png");
+  list-style-position: inside;
+  padding-left: 200px;
+}
+
+.me ul li {
+  font-size: 13px;
+  margin-left: 40px;
+  color: #494949;
+}
+
+/*pie de página*/
+
+.pie {
+  clear: both;
+  background-color: #E76975;
+  margin: 0;
+}
+
+.pie p {
+  text-align: center;
+  font-size: 11px;
+  padding: 1px;
+  color: #00043C;
+}
+
+.pie a {
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+.pie a:hover {
+  color: blue;
+}
